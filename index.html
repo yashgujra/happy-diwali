@@ -275,14 +275,9 @@
 
   /* ---------- Hint ---------- */
   .hint {
-    position: fixed;
-    left: 50%;
-    bottom: clamp(104px, 17vh, 176px);
-    transform: translateX(-50%);
-    z-index: 4;
-    margin: 0;
+    margin: 1.1rem 0 0;
     white-space: nowrap;
-    font-size: clamp(.58rem, 1.35vw, .78rem);
+    font-size: clamp(.56rem, 1.3vw, .74rem);
     letter-spacing: .34em;
     text-indent: .34em;
     text-transform: uppercase;
@@ -306,7 +301,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
-    padding: 0 3vw;
+    padding: 0 3vw 1.5vh;
     pointer-events: none;
   }
 
@@ -430,9 +425,8 @@
     </h1>
     <p class="msg">Wishing my family a Diwali filled with light,<br>laughter, sweets, and endless joy.</p>
     <button id="celebrate" class="glow-btn" type="button">Light the Sky</button>
+    <p class="hint">Tap anywhere to light up the sky</p>
   </main>
-
-  <p class="hint">Tap anywhere to light up the sky</p>
 
   <div class="diyas" aria-hidden="true">
     <div class="diya"><span class="flame"></span><span class="bowl"></span></div>
